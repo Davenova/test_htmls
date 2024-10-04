@@ -8,7 +8,7 @@ button.addEventListener('click', () => {
     button.textContent = 'Claim';
     button.classList.remove('bg-blue-500', 'hover:bg-blue-700');
     button.classList.add('bg-white', 'text-green-500');
-    window.open('hts://www.ytrtro.com/', '_blank'); // Replace with your YouTube link
+    window.open('https://youtu.be/xvFZjo5PgG0?si=sIIFSCNqlvZF2nLd/', '_blank'); // Replace with your YouTube link
   } else {
     // On subsequent clicks, only change the button color
     button.classList.add('bg-white', 'text-green-500');
